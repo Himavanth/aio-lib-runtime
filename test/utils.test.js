@@ -12,6 +12,7 @@ governing permissions and limitations under the License.
 const ow = require('openwhisk')()
 const fs = require('fs')
 const cloneDeep = require('lodash.clonedeep')
+const os = require('os')
 
 jest.mock('cross-fetch')
 
